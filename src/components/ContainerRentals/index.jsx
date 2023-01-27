@@ -8,7 +8,7 @@ const ContainerRentals = () => {
 	return (
 		<div className="container-rentals"
 		>
-			{/* Affiche les 6 premiers éléments du tableau rental.json */}
+			{/* Affiche les éléments du tableau rental.json */}
 			{rental.map((rental) => (
 				<Link to={`rental/${rental.id}`} key={rental.id} className="cardc">
 					<RentalCard title={rental.title} cover={rental.cover} key={rental.id} />
