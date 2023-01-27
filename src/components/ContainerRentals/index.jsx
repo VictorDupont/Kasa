@@ -9,7 +9,7 @@ const ContainerRentals = () => {
 		<div className="container-rentals"
 		>
 			{/* Affiche les 6 premiers éléments du tableau rental.json */}
-			{rental.slice(0, 6).map((rental) => (
+			{rental.map((rental) => (
 				<Link to={`rental/${rental.id}`} key={rental.id} className="cardc">
 					<RentalCard title={rental.title} cover={rental.cover} key={rental.id} />
 				</Link>

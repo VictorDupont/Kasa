@@ -19,7 +19,7 @@
 }
 
 .banner__title {
-  width: 705px;
+  width: 100%;
   color: white;
   position: absolute;
   top: 50%;

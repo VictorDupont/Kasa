@@ -5,7 +5,7 @@ import "./index.scss";
 
 function Header() {
 	return (
-		<section>
+		<section className="section-header">
 			<div className="container1440-header" style={{ margin: "0 auto"}}>
 				<div className="navbar">
 					<Link to="/" aria-label="Accueil">

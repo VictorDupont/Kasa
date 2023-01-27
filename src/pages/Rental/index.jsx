@@ -40,7 +40,7 @@ function Rental() {
 
 	return (
 		<React.Fragment>
-		<section style={{minHeight: "calc(100vh - 152px - 192px"}}>
+		<section className="section-rental" style={{minHeight: "calc(100vh - 122px - 192px"}}>
 			<div className="container1440" style={{ margin: "0 auto"}}>
 			<Carousel images={rental?.pictures} className="noselect" />
 				{rental &&

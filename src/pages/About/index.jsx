@@ -5,12 +5,12 @@ import Dropdown from "../../components/Dropdown";
 
 import about from "../../data/about.json";
 
-import "./index.css";
+import "./index.scss";
 
 function About() {
 	return (
 		<React.Fragment>
-			<section style={{minHeight: "calc(100vh - 152px - 192px", margin: "0px 15px"}}>
+			<section className="section-about" style={{minHeight: "calc(100vh - 122px - 192px", margin: "0px 15px"}}>
 			<div className="container1440 about-space">
 				<Banner backgroundImage="https://i.imgur.com/ywj7ZIv.jpg" title={null} />
 				<div className="about-space2"></div>
