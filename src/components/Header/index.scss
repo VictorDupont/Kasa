@@ -1,0 +1,97 @@
+.navbar {
+  
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    max-width: 1440px;
+}
+
+.logo svg {
+  @media screen and (max-width: 425px) {
+    width: 145px;
+  }
+}
+
+header nav ul a {
+    text-decoration: none;
+    margin-left: 57px;
+    font-size: 24px;
+
+    @media (max-width: 540px) {
+      margin-left: 0;
+      margin-bottom: 20px;
+    }
+
+    @media (max-width: 400px) {
+        font-size: 20px;
+    }
+}
+
+header nav ul {
+      @media (max-width: 540px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    @media (max-width: 400px) {
+        margin-right: 5px;
+    }
+
+    a {
+      @media screen and (max-width: 540px) {
+        margin-right: 10px;
+        font-size: 20px;
+      }
+      @media screen and (max-width: 425px) {
+        font-size: 14px;
+      }
+    }
+}
+
+header nav ul a:hover {
+    text-decoration: none;
+}
+
+.underline {
+    display: inline;
+    position: relative;
+    overflow: hidden;
+  }
+  .underline:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    width: 0;
+    bottom: -3px;
+    background: #FF6060;
+    height: 3px;
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+  }
+  .underline:hover:after,
+  .underline:focus:after,
+  .underline:active:after {
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
+
+.container1440-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.section-header {
+    margin: 0 20px;
+}
