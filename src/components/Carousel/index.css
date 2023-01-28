@@ -88,3 +88,9 @@
     color: white;
     font-weight: 500;
 }
+
+@media screen and (max-width: 425px) {
+    .current-image-position {
+        display: none;
+    }
+}
